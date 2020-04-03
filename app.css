@@ -1,0 +1,87 @@
+body{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+#grad{
+    background: linear-gradient(to right, powderblue 50%, lightsteelblue 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+
+#btn-plus, #btn-minus{
+    font-size: 30px;
+    align-items: center;
+    border-color:  aliceblue;
+}
+
+#plus{
+    /*font-size: 2.5rem;*/
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+#todo{
+    width: 395px;
+    align-self: center;
+    margin-left: 50px;
+    border-top: ivory;
+    border-left: pink;
+    border-right: lightgreen;
+}
+
+#container{
+    text-align: center;
+}
+
+input{
+    margin: 0px 0px 0px 0px;
+}
+
+label{
+    padding-left: 35px;
+    letter-spacing: 2px;
+    margin: 0px 20px 0px 3px;
+    font-size: 1.5rem;
+}
+
+button{ 
+    /*border:none; */
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 28px;
+    /*margin: 0 auto;*/
+    vertical-align: middle;
+} 
+
+#btn-minus{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color:#f6f6f6;
+    color: lightskyblue;
+}
+/*button:active {
+	position:relative;
+	top:1px;
+}*/
+
+.done{
+    text-decoration: line-through;
+}
